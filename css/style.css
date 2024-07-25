@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.tituloHeader {
+    margin: 0;
+    color: white;
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 0.8rem #beb3dd;
+    align-content: center;
+    justify-content: center;
+}
+
+main h1 {
+    text-align: center;
+}
+
+form {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+label {
+    margin-top: 0.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    border: 0.2rem solid #beb3dd;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+input:focus {
+    background-color: rgb(193, 216, 193);
+}
+
+button {
+    background-color: rgb(100, 100, 170);
+    padding: 0.8rem 1.8rem;
+    color: white;
+    font-weight: 100;
+    border: rgb(100, 100, 170);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(63, 63, 129);
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+tbody, thead th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/*tfoot td {
+    text-align: center;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+}*/
+
+.dataPaisUsuario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-style: solid;
+    width: fit-content;
+    margin-top: 1rem;
+    box-shadow: 0 0 0.8rem #beb3dd;
+    justify-content: center;
+}
+
+.detallePais {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    width: 40vh;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    border-style:dotted;
+    box-shadow: 0 0 0.8rem #beb3dd;
+    border-color: rgb(100, 100, 170);
+    border-width: 0.2rem;
+    background-color: rgb(196, 163, 226);
+}
+
+.flagData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    height: 35vh;
+}
+
+.flagData img {
+    width: 33vh;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.datos h2 {
+    color: black;
+    text-transform: uppercase;
+}
+
+.datos {
+    padding-top: 1.2rem;
+    text-align: center;
+}
